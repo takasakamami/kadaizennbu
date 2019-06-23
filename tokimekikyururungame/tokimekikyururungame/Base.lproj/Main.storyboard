@@ -566,7 +566,6 @@
         <!--Last Summer View Controller-->
         <scene sceneID="78k-dk-Gnf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="D41-Fi-Sv5" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="wcd-a4-fZL" customClass="LastSummerViewController" customModule="tokimekikyururungame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x1f-RM-Ou4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -620,6 +619,7 @@
                         <outlet property="lastLabel" destination="UAp-hy-KNm" id="tIU-Ea-UhN"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D41-Fi-Sv5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-436" y="3365"/>
         </scene>
@@ -896,7 +896,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mY-2C-VHX">
-                                <rect key="frame" x="5" y="625" width="1108" height="227"/>
+                                <rect key="frame" x="5" y="625" width="404" height="227"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="次に進む"/>
                                 <connections>
@@ -905,7 +905,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eZK-E1-h9N">
-                                <rect key="frame" x="5" y="415" width="1108" height="200"/>
+                                <rect key="frame" x="5" y="415" width="404" height="200"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="kOh-Lu-ckT"/>
@@ -1126,7 +1126,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxw-ca-Kgd">
-                                <rect key="frame" x="5" y="819" width="124" height="42"/>
+                                <rect key="frame" x="5" y="819" width="404" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="TOPに戻る"/>
                                 <connections>
@@ -1135,13 +1135,13 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MJy-Y8-Pb8">
-                                <rect key="frame" x="5" y="431" width="124" height="383"/>
+                                <rect key="frame" x="5" y="431" width="404" height="383"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kXf-Mr-TVi">
-                                <rect key="frame" x="5" y="49" width="124" height="377"/>
+                                <rect key="frame" x="5" y="49" width="404" height="377"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="Okm-zJ-3ma"/>
                                     <constraint firstAttribute="height" constant="377" id="dJK-po-aPO"/>
